@@ -1,0 +1,236 @@
+/* Estilos base */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .map-container {
+    margin: 50px auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+  .info-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .btn {
+    background-color: #0077cc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #005ea6;
+  }
+  
+  /* Estilos dinámicos */
+  @media screen and (max-width: 767px) {
+    /* Contenedor principal */
+    .map-container {
+      max-width: 90%;
+    }
+  
+    .info-container {
+      margin: 20px auto;
+      max-width: 400px;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    /* Títulos y texto */
+    h1 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    li {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  
+    /* Botones */
+    .btn {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Contenedor principal */
+    .map-container {
+      max-width: 80%;
+    }
+  
+    .info-container {
+      margin: 20px auto;
+      max-width: 600px;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    /* Títulos y texto */
+    h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+  
+    li {
+      font-size: 22px;
+      margin-bottom: 7px;
+    }
+  
+    /* Botones */
+    .btn {
+      font-size: 18px;
+      padding: 10px 18px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+   
+    .map-container {
+        width: 60%;
+        margin: 50px auto;
+        }
+        
+        .info-container {
+        width: 40%;
+        margin: 50px auto;
+        padding: 50px;
+        }
+        }    
+/* Media query para dispositivos de 700px o menos */
+@media screen and (max-width: 700px) {
+    .map-container {
+      margin: 30px auto;
+      max-width: 90%;
+    }
+  
+    .info-container {
+      margin: 30px auto;
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    li {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .btn-group {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+  
+    .btn {
+      display: block;
+      margin-bottom: 10px;
+      margin-right: 0;
+      padding: 10px 0;
+      width: 100%;
+    }
+  }
+  
+  /* Media query para dispositivos de 300px o menos */
+  @media screen and (max-width: 300px) {
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  
+    li {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  
+    .btn {
+      font-size: 16px;
+      padding: 8px 15px;
+    }
+
+    .info-container {
+      margin: 20px auto;
+      max-width: 200px;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+
+  
+  
